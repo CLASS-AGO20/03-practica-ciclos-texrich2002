@@ -1,8 +1,9 @@
 export default class App {
+
 factorial(numero){
     let i,total=1;
     for(i=1; i<=numero; i++){
-        total = total*i;
+        total = total*i; 
     }
     return total;
 }
@@ -46,4 +47,3 @@ console.log(app.obtenerDivisibles(5));
 console.log("");
 console.log("Funcion que eleve cualquier numero a cualquier potencia: ");
 console.log(app.elevar(5,5));
-console.log("");
